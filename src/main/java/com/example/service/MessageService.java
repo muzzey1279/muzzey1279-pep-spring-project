@@ -36,7 +36,7 @@ public class MessageService {
     // Get one message by ID
     public Optional<Message> getMessageById(int messageId) {
         return messageRepository.findById(messageId);
-    }
+    }    
 
     // ✅ DELETE a message by ID
     public int deleteMessageById(int messageId) {
